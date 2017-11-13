@@ -1,0 +1,61 @@
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+ .serviceBox .title{
+  width: auto;
+  font-size: 18px;
+ } 
+ .serviceBox{
+  margin-bottom: 0px;
+ }
+ .testimonial .testimonial-content{
+  background: rgb(30, 192, 159);
+ }
+ .testimonial .name{
+  color: #fff;
+ }
+ @keyframes slide-lr {
+    from { left: 0px; }
+    to { left: 0px; }
+  }
+  @keyframes slide-rl {
+    from { right: 0px; }
+    to { right: 0px; }
+  }
+  @keyframes slide-bt {
+    from { top: 50px; }
+    to { right: 0px; }
+  }
+  @keyframes about-slide-tb {
+    from { right: 0px; }
+    to { right: 0px; }
+  }
+  .service-header h1{
+    font-size: 30px;
+  }
+  .testimonial-header h1{
+    font-size: 30px;
+  }
+  .tech-name{
+    font-size: 18px;
+  }
+  .about-header h1{
+    font-size: 30px;
+  }
+  video{
+    width: 100%;
+    height: 300px;
+  }
+  .pt-pb-25{
+    padding-bottom: 40px;
+  }
+  .contact-info.fa.fa-mobile{
+    height: 100px;
+  }
+  .contact-info{
+    margin-left: 15px;
+  }
+  .navbar-collapse.contact-list-info{
+    float: left !important;
+  }
+}

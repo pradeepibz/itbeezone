@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../stylesheets/App.css';
 import '../stylesheets/Nav.css';
 import '../stylesheets/custom.css';
+import '../stylesheets/responsive.css';
 import Header from './header';
 import HomeSection from './homesection';
 import ServiceSection from './servicesection';

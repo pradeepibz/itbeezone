@@ -14,7 +14,7 @@ class FeedbackSection extends React.Component {
                   <div id="testimonial-slider" className="owl-carousel">
                       <div className="testimonial">
                           <div className="pic">
-                              <img src={client1} alt=""/>
+                              <img src={client1} alt="row"/>
                           </div>
                           <h3 className="title">Lorem ipsum dolor</h3>
                           <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ante porttitor.</p>
@@ -28,7 +28,7 @@ class FeedbackSection extends React.Component {
 
                       <div className="testimonial">
                           <div className="pic">
-                              <img src={client1} alt=""/>
+                              <img src={client1} alt="row"/>
                           </div>
                           <h3 className="title">Lorem ipsum dolor</h3>
                           <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ante porttitor.</p>
@@ -41,7 +41,7 @@ class FeedbackSection extends React.Component {
                       </div>
                       <div className="testimonial">
                           <div className="pic">
-                              <img src={client1} alt=""/>
+                              <img src={client1} alt="row"/>
                           </div>
                           <h3 className="title">Lorem ipsum dolor</h3>
                           <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ante porttitor.</p>
@@ -55,7 +55,7 @@ class FeedbackSection extends React.Component {
        
                       <div className="testimonial">
                           <div className="pic">
-                              <img src={client1} alt=""/>
+                              <img src={client1} alt="row"/>
                           </div>
                           <h3 className="title">Lorem ipsum dolor</h3>
                           <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ante porttitor.</p>

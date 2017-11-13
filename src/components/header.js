@@ -19,7 +19,7 @@ class Header extends Component{
         </div>
         <div className="col-md-8">
            <div className="col-md-12">
-            <div className="navbar-collapse nav-collapse collapse pull-right">
+            <div className="navbar-collapse nav-collapse collapse pull-right contact-list-info">
               <ul className="nav navbar-nav pull-right">
                 <li className="dropdown">
                   <span>Email:&nbsp;&nbsp; test@yopmail.com</span>
