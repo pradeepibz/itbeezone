@@ -1,0 +1,117 @@
+.banner[data-transparent-header="true"] {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  overflow: visible !important;
+  z-index: 9998;
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  border-bottom: 0;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+header.dark-header {
+  background-color: #252b2d;
+  border-color: transparent;
+  border-bottom: 0;
+}
+
+.nav.navbar-nav .dropdown:hover .nav-border{
+  border-bottom: 1px solid rgb(30, 192, 159);
+  bottom: 20%;
+  left: 20%;
+  right: 17%;
+  position: absolute;
+}
+
+.navbar-default{
+  background-color: #fff;
+  box-shadow: 2px 2px #b1abab;
+}
+ 
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:visited{
+  color: #000;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: #000;
+}
+.navbar-brand{
+  padding-left: 60px;
+}
+  
+.nav>li>span {
+  padding: 10px 15px;
+  position: relative;
+  display: block;
+  color: #000;
+}
+.navbar-nav>li>span{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+}
+
+.social-container{
+  width: 70% !important;
+  height: 70% !important;
+}
+.social-icon{
+  top: 17px !important;
+}
+@media (max-width: 767px) {
+  .navbar-nav  {
+     display: inline;
+  }
+  .navbar-default .navbar-brand {
+    display: inline;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+  .navbar-default .navbar-nav .dropdown-menu > li > a {
+    color: red;
+    background-color: #ccc;
+    border-radius: 4px;
+    margin-top: 2px;   
+  }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+     color: #333;
+   }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+     background-color: #ccc;
+   }
+
+   .navbar-nav .open .dropdown-menu {
+     border-bottom: 1px solid white; 
+     border-radius: 0;
+   }
+  .dropdown-menu {
+      padding-left: 10px;
+  }
+  .dropdown-menu .dropdown-menu {
+      padding-left: 20px;
+   }
+   .dropdown-menu .dropdown-menu .dropdown-menu {
+      padding-left: 30px;
+   }
+   li.dropdown.open {
+    border: 0px solid red;
+   }
+
+}
+ 
+@media (min-width: 768px) {
+  ul.nav li:hover > ul.dropdown-menu {
+    display: block;
+  }
+  #navbar {
+    text-align: center;
+  }
+}  

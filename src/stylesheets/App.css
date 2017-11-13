@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+#mrf-contactBubbles {
+  bottom: 0;
+  height: 50px;
+  position: fixed;
+  left: 15px;
+  transition: transform 0.4s ease-in 0s, -webkit-transform 0.4s ease-in 0s;
+  width: 40%;
+}
+/*.mrf-bubble--mail {
+    background-image: url("../images/mail.svg");
+}*/
+.mrf-open .mrf-bubble--close {
+    background-position: 15px;
+    background-size: 20px;
+    background-image: url("../images/close.svg");
+    cursor: pointer;
+}
+/*.mrf-open{
+  cursor: pointer;
+}*/
+.mrf-bubble--close, .mrf-bubble--mail, .mrf-bubble--phone {
+  background-color: #000;
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 30px auto;
+  bottom: 10px;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  transform: translate(0px, 0px);
+  transition: transform 0.1s ease-in 0s, -webkit-transform 0.1s ease-in 0s;
+  width: 100%;
+  text-decoration: none;
+}
+.mrf-bubble--close:hover{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+.open-side-window{
+  display: none;
+}
+.mrf-bubble--mail{
+  top: 100px;
+  background: #fff;
+  width: 60%;
+  right: 206px;
+}
+.mrf-trigger{
+  width: 10%;
+  right: 446px;
+  height: 40px;
+  text-align: left;
+  padding-right: 0px;
+  line-height: 26px;
+  border-radius: 50%;
+  float: left;
+}
+
+.mrf-bubble--close, .mrf-bubble--phone {
+  background-image: url("../images/mail.svg");
+}
+#mrf-contactBubbles.mrf-open .north {
+  -webkit-transform: translateY(-120%);
+  transform: translateY(-120%)
+}
+#mrf-contactBubbles.mrf-open .north,
+#mrf-contactBubbles.mrf-open .west {
+  -webkit-transition: -webkit-transform .1s ease-in;
+  transition: -webkit-transform .1s ease-in;
+  transition: transform .1s ease-in;
+  transition: transform .1s ease-in, -webkit-transform .1s ease-in
+}
+#mrf-contactBubbles.mrf-open .west {
+  -webkit-transform: translateX(-120%);
+  transform: translateX(-120%)
+}
+#mrf-contactBubbles.mrf-open .north-west {
+  -webkit-transform: translate(-120%, -120%);
+  transform: translate(-120%, -120%);
+  -webkit-transition: -webkit-transform .1s ease-in;
+  transition: -webkit-transform .1s ease-in;
+  transition: transform .1s ease-in;
+  transition: transform .1s ease-in, -webkit-transform .1s ease-in
+}
+
+.bubble-header{
+  background-color: #171717;
+  color: #ffffff;
+  border-color: #0a0a0a;
+  height: 40px;
+}
+.bubble-close{
+  font-size: 12px;
+  margin: 0px;
+  width: 50px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
